@@ -1,2 +1,5 @@
 language: C
-script: make
+script:
+  - make
+  - scripts/checkpatch.pl -f *
+
