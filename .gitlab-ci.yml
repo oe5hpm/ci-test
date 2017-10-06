@@ -1,2 +1,5 @@
 hello:
   script: make
+
+spell:
+  script: scripts/checkpatch.pl -f *
