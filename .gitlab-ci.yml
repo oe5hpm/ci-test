@@ -2,4 +2,5 @@ hello:
   script: make
 
 spell:
-  script: scripts/checkpatch.pl -f *
+  script: scripts/checkpatch.pl -f Makefile *.h *.c
+

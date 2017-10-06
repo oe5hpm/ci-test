@@ -1,5 +1,6 @@
 language: C
 script:
   - make
-  - scripts/checkpatch.pl -f *
+  - scripts/checkpatch.pl -f Makefile *.h *.c
+
 
